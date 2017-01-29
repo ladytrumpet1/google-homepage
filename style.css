@@ -1,0 +1,99 @@
+
+body{
+	font-family: arial, sans-serif;
+	margin: 5px;
+}
+
+div{
+	overflow: auto;
+	display: block;
+}
+li{
+	float: left;
+	display: block;
+	padding: 8px;
+}
+
+.topbar{
+	position:absolute;
+	right: 0px;
+	padding: 10px;
+}
+
+.logo{
+	padding-top: 200px;
+}
+
+img .logo {
+    display: block;
+    padding: 20px;
+} 
+
+img .micrologo{
+	display: block;
+	padding: 2px;
+}
+
+input{ 
+	position: center;
+	padding: 10px;
+	margin: auto;
+	width: 500px;
+	border: 3px solid #f2f2f2;
+	
+}
+
+input:hover{
+	border-style: outset;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+button{
+	border-radius: 4px;
+	margin: 11px 4px;
+	padding: 12px 28px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	color: black;
+	background-color: #e7e7e7;
+	border: 2px solid #f0efef;
+}
+
+button:hover{
+	border: 2px solid #9fa9a3;
+}
+
+.gbutton {
+	padding-top: 20px;
+}
+.bottombar{
+	bottom: 0;
+	background-color: #f2f2f2;
+	position: fixed;
+	padding: 15px 0 15px 0;
+	font-size: 0.8em;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+}
+
+.bottombar a{
+	color:#666;
+}
+
+.bottombar .left-footer a{
+	float:left;
+	padding-left: 30px;
+}
+
+.bottombar .right-footer a{
+	float:right;
+	padding-right: 30px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
